@@ -4,8 +4,11 @@ body {
   background-color: blue;
 }
 
-div {
-  background-image:image("./resources/images/the-flatiron-building.png.download/the-flatiron-building.png")
+.image{
+  background-image: url("https://s3.amazonaws.com/codecademy-content/programs/freelance-one/broadway/images/the-flatiron-building.png");
+  background-size: cover;
+  background-position: center;
+
 }
 
 h1{
